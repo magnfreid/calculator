@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Miniräknaren</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="https://cdn.jsdelivr.net/npm/mathjs@13.0.0/lib/browser/math.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="calculator-layout">
+      <section class="output">
+        <p id="input"></p>
+        <p id="result"></p>
+      </section>
+      
+        <section class="calculator">
+          <button class="op" disabled title="Square root">√x</button>
+          <button class="op" disabled title="Squared">x^2</button>
+          <button class="digit"></button>
+          <button class="op">+</button>
+          <button class="digit">7</button>
+          <button class="digit">8</button>
+          <button class="digit">9</button>
+          <button class="op">-</button>
+          <button class="digit">4</button>
+          <button class="button digit">5</button>
+          <button class="digit">6</button>
+          <button class="button op">*</button>
+          <button class="digit">1</button>
+          <button class="digit">2</button>
+          <button class="digit">3</button>
+          <button class="op">/</button>
+          <button class="c">C</button>
+          <button class="digit">0</button>
+          <button class="op sum">=</button>
+        </section>
+      </div>
+      <div class="history-layout">
+        <section class="history-section">
+          <div class="history-top">
+            <h1>History</h1>
+            <button class="clear-history-button">Clear</button>
+          </div>
+          <div class="history-main"><ol class="history"></ol></div>
+
+          
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
