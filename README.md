@@ -1,2 +1,0 @@
-# calculator
-BFU inlämningsuppgift
