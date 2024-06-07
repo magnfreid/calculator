@@ -1,0 +1,2 @@
+Inklämningsuppgift Miniräknaren
+av Magnus Freidenfelt
